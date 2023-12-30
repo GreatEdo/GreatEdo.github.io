@@ -42,7 +42,7 @@ if(getMode && getMode === "dark-mode"){
 iconTheme.addEventListener("click", function() {
     iconTheme.classList.toggle("active");
     body.classList.toggle("dark");
-    // knp pakai toggle bkn add kl  pakai toggle diclick bakalan active dan diclick lagi bakalan hilang kl add cuma menambahkan saat di click dan gk bakalan hilang kl di click kembali
+    
     if(!body.classList.contains("dark")){
         localStorage.setItem("mode" , "light-mode");
     }else{
