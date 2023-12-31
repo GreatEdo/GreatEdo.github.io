@@ -333,6 +333,9 @@ a.btnhome:hover{
 .sosialmedia .button:nth-child(2):hover .icon {
     background: #4267B2;
 }
+.sosialmedia .button:nth-child(3):hover .icon {
+    background: #333;
+}
 
 .sosialmedia .button .icon i{
     font-size: 25px;
@@ -355,6 +358,9 @@ a.btnhome:hover{
 }
 .sosialmedia .button:nth-child(2)  span{
     color: #4267B2;
+}
+.sosialmedia .button:nth-child(3)  span{
+    color: #333;
 }
 
 .rightabout{
