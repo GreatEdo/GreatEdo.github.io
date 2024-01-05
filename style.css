@@ -46,7 +46,8 @@ body.dark{
     --secondary-color:#fff;
     --primary-color: #252525;
     --btncolor : #ffb703;
-    --body:#252525;
+    --body: linear-gradient(315deg, rgba(255,255,255,0.1) 0%, rgba(215,225,236,0.1) 74%);
+
 }
 
 ul{
@@ -488,6 +489,9 @@ a.btnhome:hover{
 
 
 /* portfolio section */
+#portfolio{
+    background: var(--body);
+}
 #portfolio .containerportfolio{
     padding: 50px;
     
